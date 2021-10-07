@@ -71,4 +71,12 @@ $ git push -u origin master
 # use github token, not password, example: ghp_Vt0gMB8ymoEUqlilAcya7khTj2EdlZ2I1p4e (fake)
 https://github.com/brianspinos777/october-2021-app-react
 
+
+// Run the app
+$ git clone https://github.com/brianspinos777/october-2021-app-react.git
+$ cd october-2021-app-react/
+$ npm install
+$ npm start
+http://localhost:3000/
+
 .
