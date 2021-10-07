@@ -1,0 +1,23 @@
+.myComponent {
+  background-color: #eee;
+  margin: 10px;
+  padding: 10px;
+  width: 400px;
+  height: 200px;
+  float: left;
+  /* justify-content: center; */
+  /* display: flex; */
+  /* display: block; */
+  /* display: inline-block; */
+  /* text-align: center; */
+  /* clear: right; */
+  font-family: arial;
+  font-size: 12px;
+
+  /* opacity: 0.3; */
+  border: 1px solid #bbb;
+  border-radius: 5px;
+
+  color: green;
+  /* box-shadow: 1px 1px 1px #000000; */
+}
