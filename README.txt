@@ -110,4 +110,62 @@ FooComponent.propTypes = {
 }
 
 
+=========================================================================== linter
+https://medium.com/@RossWhitehouse/setting-up-eslint-in-react-c20015ef35f7
+
+npm install -g eslint
+
+eslint --init # to create the config file
+npm audit
+eslint
+
+eslint **/*.jsx
+
+
+// package.json:
+    "lint": "eslint src/**/*.js src/**/*.jsx" // for the scripts, npm run lint
+
 ===========================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.
