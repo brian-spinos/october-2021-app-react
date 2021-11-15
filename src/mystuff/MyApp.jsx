@@ -9,6 +9,7 @@ import MyClassComponentWithProps from './components/MyClassComponentWithProps';
 
 import MyParentComponent from './components/MyParentComponent';
 import MyChildComponent from './components/MyChildComponent';
+import MyComponentWithPropTypes from './components/MyComponentWithPropTypes.jsx'
 import store from './store/store';
 
 
@@ -41,6 +42,9 @@ function MyApp() {
                         <MyParentComponent>
                           <MyChildComponent/>
                         </MyParentComponent>
+                        
+                        <MyComponentWithPropTypes title='foo'/>
+                        <MyComponentWithPropTypes/>
               </Route>
           </Switch>
       </Router>

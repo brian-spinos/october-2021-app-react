@@ -80,15 +80,7 @@ $ npm start
 http://localhost:3000/all
 
 
-
-
-
-
-
-
-
-
-=========================================================================== router
+=========================================================================== Router
 
 npm install react-router-dom@5 # version 6 is in beta
 
@@ -103,18 +95,19 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 </Router>
 
 
+=========================================================================== prop types
+
+import PropTypes from 'prop-types'
+
+FooComponent.defaultProps = {
+  title: 'aaa'
+}
+
+
+FooComponent.propTypes = {
+  title: PropTypes.string.isRequired
+  // PropTypes.func.isRequired
+}
+
+
 ===========================================================================
-
-
-
-
-===========================================================================
-
-
-
-===========================================================================
-
-
-
-
-.
