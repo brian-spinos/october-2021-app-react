@@ -1,7 +1,7 @@
 // import logo from './logo.svg';
 // import './App.css';
 
-import MyApp from './mystuff/MyApp';
+import MyApp from './mystuff/MyApp.jsx';
 export default MyApp;
 
 /*

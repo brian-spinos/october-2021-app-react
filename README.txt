@@ -77,6 +77,44 @@ $ git clone https://github.com/brianspinos777/october-2021-app-react.git
 $ cd october-2021-app-react/
 $ npm install
 $ npm start
-http://localhost:3000/
+http://localhost:3000/all
+
+
+
+
+
+
+
+
+
+
+=========================================================================== router
+
+npm install react-router-dom@5 # version 6 is in beta
+
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+
+<Router>
+    <Switch>
+        <Route path="/foo">
+            </Foo>
+        </Route>
+    </Switch>
+</Router>
+
+
+===========================================================================
+
+
+
+
+===========================================================================
+
+
+
+===========================================================================
+
+
+
 
 .
