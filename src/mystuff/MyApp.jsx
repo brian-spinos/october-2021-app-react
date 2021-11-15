@@ -6,6 +6,7 @@ import MyFuncComponent from './components/MyFuncComponent';
 import MyClassComponent from './components/MyClassComponent';
 import MyFuncComponentWithProps from './components/MyFuncComponentWithProps';
 import MyClassComponentWithProps from './components/MyClassComponentWithProps';
+import React from 'react';
 
 import MyParentComponent from './components/MyParentComponent';
 import MyChildComponent from './components/MyChildComponent';
@@ -44,7 +45,7 @@ function MyApp() {
                         </MyParentComponent>
                         
                         <MyComponentWithPropTypes title='foo'/>
-                        <MyComponentWithPropTypes/>
+                        <MyComponentWithPropTypes action={() => {alert('Hi!')}}/>
               </Route>
           </Switch>
       </Router>
